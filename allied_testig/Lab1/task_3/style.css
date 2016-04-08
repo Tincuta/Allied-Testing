@@ -1,0 +1,29 @@
+div {
+	display:block;
+	height: 50px;
+	width:50px;
+	border:1px black solid;
+}
+
+#circle{
+	/*make stuff look like circle*/
+	border-radius: 25px;
+
+}
+#rounded_square{
+	border-radius:10px;
+}
+.blue{
+	background-color: blue;
+}
+
+.red{
+	/*make me red */
+	background-color: red;
+}
+
+.small{
+	/*make as twice smaller than other objects */
+	height: 25px;
+	width: 25px;
+}

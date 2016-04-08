@@ -1,0 +1,27 @@
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.7/angular.min.js"></script>
+<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="style.css" />
+<title>Lab 1 - task 4</title>
+<base href="http://warez.md/" />
+</head>
+<!-- upon oppening our body divMove() function will be executed-->
+<body onload="divMove()">
+
+
+<div id="rounded_square" class="blue" > </div>
+<script>
+//Task: upon oppening make square move from left to right by 200 pixels . use timer, and attribute "left" or "margin-left"
+
+function divMove (argument) {
+    $( "#rounded_square" ).animate({
+        marginLeft: "200px"
+    }, 1500 );
+}
+
+
+</script>
+</body>
+</html>
